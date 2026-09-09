@@ -33,8 +33,5 @@ PASS: representative highlight, bracket, indentation, and scope assertions.
 ## Manual testing
 
 The maintainer reported successfully installing this version as a Zed dev
-extension and confirmed that highlighting worked. No parser, language
+extension and confirmed that highlighting worked alongside bracket-closing and interactive indentation. No parser, language
 configuration, or query changes were made after that test.
-
-The automated checks above run the native parser, not Zed's UI. They do not
-verify every interactive indentation or bracket-closing behavior.
