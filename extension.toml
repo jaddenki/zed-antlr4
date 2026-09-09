@@ -1,0 +1,12 @@
+id = "antlr4"
+name = "ANTLR4"
+version = "0.1.0"
+schema_version = 1
+authors = ["jaddenki"]
+description = "ANTLR4 grammar syntax highlighting, indentation, and bracket matching."
+
+repository = "https://github.com/jaddenki/zed-antlr4"
+
+[grammars.antlr4]
+repository = "https://github.com/lakitu/tree-sitter-antlr4"
+rev = "188639301cd3b47fda1c1107971c9cc4e8432031"
